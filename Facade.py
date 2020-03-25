@@ -18,22 +18,22 @@ class EventManager:
 
 class Hotelier:
     def bookHotel(self):
-        print(f"{self.__class__} got the task!")
+        print(f"{type(self).__name__} got the task!")
 
 
 class Florist:
     def setFlowerRequirements(self):
-        print(f"{self.__class__} got the task!")
+        print(f"{type(self).__name__} got the task!")
 
 
 class Caterer:
     def setCuisine(self):
-        print(f"{self.__class__} got the task!")
+        print(f"{type(self).__name__} got the task!")
 
 
 class Musician:
     def setMusicType(self):
-        print(f"{self.__class__} got the task!")
+        print(f"{type(self).__name__} got the task!")
 
 
 class Client:
